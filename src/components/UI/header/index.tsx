@@ -32,7 +32,7 @@ const Header = () => {
             const updatedLinks = [
                 {
                     title: translations[language].home,
-                    href: accessToken ? '/restaurants' : '/login'
+                    href: accessToken ? '/' : '/login'
                 },
                 {
                     title: translations[language].profile,
