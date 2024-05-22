@@ -59,7 +59,7 @@ const Login = () => {
                             onChange={(e) => setPassword(e.target.value)}
                         />
                     </div>
-                    <Button onClick={handleLogin}>
+                    <Button onClick={handleLogin} disabled={isLoading}>
                         {isLoading ? <Loader size={26} /> : translations[language].logIn}
                     </Button>
                 </div>
