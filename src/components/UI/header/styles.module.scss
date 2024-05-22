@@ -1,0 +1,23 @@
+.header {
+  padding-block: 24px;
+
+  & > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+}
+
+.link {
+  transition: 200ms all ease-in-out;
+
+  &:hover {
+    color: #ada6ff;
+  }
+}
